@@ -1,0 +1,31 @@
+.navbar {
+  font-family: sans-serif;
+  display: grid;
+  align-items: center;
+
+  padding: 0 40px 0 40px;
+  grid-template-columns: 1fr 2fr 1fr;
+  background-color: #1f4287;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  display: grid;
+}
+
+.title h1 {
+  font-family: serif;
+  place-self: start;
+  text-shadow: 20px rgb(225, 0, 0);
+}
+
+.navbar input {
+  height: 40px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar p {
+  font-size: large;
+  place-self: end;
+  align-self: center;
+}
