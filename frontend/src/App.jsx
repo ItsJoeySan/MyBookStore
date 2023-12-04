@@ -1,6 +1,6 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home.jsx";
+import Home from "./pages/Home/Home.jsx";
 import EditBook from "./pages/EditBook.jsx";
 import ShowBook from "./pages/ShowBook.jsx";
 import InsertBook from "./pages/InsertBook.jsx";
